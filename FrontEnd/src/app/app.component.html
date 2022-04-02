@@ -1,0 +1,9 @@
+<form [formGroup]="NameForm" class="form__group field" (ngSubmit)="submit()">
+
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' formControlName="name" required />
+  <label for="name" class="form__label">Name</label>
+
+
+  <input type="submit" value="Submit">
+
+</form>
